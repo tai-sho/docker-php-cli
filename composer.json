@@ -1,0 +1,12 @@
+{
+    "name": "tai-sho/docker-php-cli",
+    "description": "A ready-to-execute environment for PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shohei Tai",
+            "email": "shouhei.tai@gmail.com"
+        }
+    ],
+    "require": {}
+}
