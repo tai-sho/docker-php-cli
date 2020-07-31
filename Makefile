@@ -26,7 +26,3 @@ composer-install:
 			-v `pwd`:/usr/src/myapp \
 			phpcli:latest \
 			composer install
-
-dev-init:
-	cp .env.default .env
-
