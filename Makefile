@@ -1,19 +1,18 @@
 all:
-	echo "コマンド名を指定してください。"
+	echo "Specify the command."
 	exit 1
 
-# buildする
 build:
 	docker build -t phpcli:latest .
 
-# コード実行
+# Run main.php
 run:
 	docker run -it --rm --name my-php-script \
 			-v `pwd`:/usr/src/myapp \
 			phpcli:latest \
 			php main.php
 
-# コンテナの中に入る
+# Login container
 login:
 	docker run -it --rm --name my-php-script \
 			-v `pwd`:/usr/src/myapp \
