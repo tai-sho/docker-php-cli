@@ -1,5 +1,7 @@
 # Overview
-A ready-to-execute environment for PHP
+A ready-to-execute environment for PHP 
+
+![demo](https://raw.githubusercontent.com/wiki/tai-sho/docker-php-cli/image/php-cli.gif)
 
 ## Installation
 ```bash
