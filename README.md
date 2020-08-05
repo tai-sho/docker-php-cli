@@ -6,11 +6,28 @@ A ready-to-execute environment for PHP
 ## Installation
 ```bash
 $ make build
+```
+## Use Composer
+```bash
 $ make composer-install
+```
+or
+```bash
+$ make login
+$ composer install
+$ composer require xxxxx
+$ exit
 ```
 
 ## Run Script
 run main.php
 ```bash
 $ make run
+```
+
+## Login Docker
+Log in to the container and execute the command directly.
+```bash
+$ make login
+$ php -v
 ```
