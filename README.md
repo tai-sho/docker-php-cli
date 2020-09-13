@@ -1,3 +1,8 @@
+![Docker Automated build](https://img.shields.io/docker/automated/shouheitai/php-cli)
+![Docker Pulls](https://img.shields.io/docker/pulls/shouheitai/php-cli)
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/shouheitai/php-cli)
+![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/shouheitai/php-cli)
+
 # Overview
 A ready-to-execute environment for PHP 
 
