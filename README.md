@@ -8,6 +8,9 @@ A ready-to-execute environment for PHP
 
 ![demo](https://raw.githubusercontent.com/wiki/tai-sho/docker-php-cli/image/php-cli.gif)
 
+With Utility Commands
+https://github.com/tai-sho/docker-php-cli/
+
 ## Installation
 ```bash
 $ make build
